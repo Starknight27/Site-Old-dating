@@ -1,0 +1,56 @@
+:root {
+    /* Couleurs principales */
+    --slate-blue: #62769B;
+    --mauve: #9B6276;
+    --muted-green: #769B62;
+    --bg-light: #EDEEE3; 
+    --text-dark: #273146;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Comic Sans MS', cursive, sans-serif; /* Effet manuscrit de la maquette */
+    background-color: var(--text-dark);
+    color: var(--text-dark);
+}
+
+/* Style de la page Inscription */
+.container-inscription {
+    display: flex;
+    width: 80%;
+    margin: 50px auto;
+    background-color: var(--bg-light);
+    border-radius: 20px;
+    overflow: hidden;
+    min-height: 600px;
+}
+
+.form-side {
+    background-color: var(--slate-blue);
+    padding: 40px;
+    width: 40%;
+    border-right: 10px solid var(--text-dark);
+}
+
+.form-side form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-side input {
+    padding: 10px;
+    border: none;
+    background-color: #D3D3D3;
+    border-radius: 5px;
+    font-family: inherit;
+}
+
+.illustration-side {
+    width: 60%;
+    background-color: #E8F0E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
